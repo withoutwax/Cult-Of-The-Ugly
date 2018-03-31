@@ -1,0 +1,14 @@
+{
+  "name": "Cult-of-the-Ugly",
+  "version": "1.0.0",
+  "description": "Cult of the Ugly is the a project of experimentation between aesthetics and aesthetic of 'ugliness'. For the project, I was given to choose between editorial design or design with digital platform. I decided to go for the digital platform.",
+  "scripts": {
+    "start": "nodemon index.html"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
