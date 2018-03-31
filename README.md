@@ -5,4 +5,7 @@ Cult of the Ugly is the a project of experimentation between aesthetics and aest
 
 Currently WIP
 
+### Third-Party-Library
+ - [Scroll Magic](https://github.com/janpaepke/ScrollMagic)
+
 ### The Cult of The Ugly,‘Ugly’ Aesthetics, & Editorial Design
