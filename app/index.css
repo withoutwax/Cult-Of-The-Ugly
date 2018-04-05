@@ -1,0 +1,11 @@
+.container-01 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  background-color: red;
+
+
+}
+.container-02-article-01 {
+  border: 2px solid blue;
+}
