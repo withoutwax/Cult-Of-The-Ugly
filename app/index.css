@@ -103,3 +103,50 @@ pre {
   margin-top: 500px;
   width: 30%;
 }
+
+/* Section07 */
+.container-07 {
+  display: grid;
+  grid-template-columns: 75px 350px;
+  grid-template-rows: repeat(6 100px);
+
+  width: 60%;
+  margin-left: 30%;
+}
+.container-07-article-01 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 7;
+}
+.container-07-article-05 {
+  transform: rotate(-10deg);
+}
+.container-07-article-06 {
+  transform: rotate(20deg);
+}
+
+/* Section08 */
+.container-08 {
+  display: grid;
+  grid-template-rows: repeat(4 auto);
+  grid-row-gap: 50px;
+
+  margin: auto;
+  width: 75%
+}
+
+/* Section09 */
+.container-09 {
+  margin: auto;
+  width: 20%;
+}
+.container-09-article-01 {
+  margin-top: 400px;
+}
+.container-09-article-02 {
+  margin-top: 400px;
+  margin-bottom: 400px;
+}
+
+footer {
+  background-color: #999999;
+}
