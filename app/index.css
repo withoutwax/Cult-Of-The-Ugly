@@ -211,7 +211,7 @@ pre {
 /* Section06 */
 .container-06 {
   display: flex;
-	margin-top: 300px;
+	margin-top: 30px;
 	margin-bottom: 300px;
   /* justify-content: space-between; */
 }
@@ -281,13 +281,62 @@ pre {
 .container-07-article-07 {
 }
 
+.container-07-beauty {
+	background-color: black;
+	color: white;
+	font-size: 3em;
+
+	-moz-transform: scale(1, -1);
+	-webkit-transform: scale(1, -1);
+	-o-transform: scale(1, -1);
+	-ms-transform: scale(1, -1);
+	transform: scale(1, -1);
+}
+.container-07-aesthetic {
+	text-decoration: line-through;
+	font-family: Times;
+	font-size: 3em;
+}
+.container-07-ugly {
+	background-color: black;
+	color: white;
+	font-family: Times;
+	font-size: 10em;
+
+	-moz-transform: scale(1, -1);
+	-webkit-transform: scale(1, -1);
+	-o-transform: scale(1, -1);
+	-ms-transform: scale(1, -1);
+	transform: scale(-1, 1);
+}
+.container-07-pattern {
+	background-color: black;
+	color: white;
+	text-decoration: line-through;
+	font-family: Times;
+	font-size: .75em;
+
+	-moz-transform: scale(1, -1);
+	-webkit-transform: scale(1, -1);
+	-o-transform: scale(1, -1);
+	-ms-transform: scale(1, -1);
+	transform: scale(-1, 1);
+}
+.container-07-cultures {
+	background-color: black;
+	color: white;
+	text-decoration: line-through;
+	font-family: Times;
+	font-size: 4em;
+}
+
 /* Section08 */
 .container-08 {
   display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-column-gap: 50px;
 
-	margin-top: 150px;
+	margin-top: 50px;
   margin-left: 10%;
   width: 75%
 }
