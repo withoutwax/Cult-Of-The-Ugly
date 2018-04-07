@@ -41,13 +41,23 @@ pre {
 }
 
 /* Section01 - Cult of the Ugly */
+.header {
+	display: flex;
+}
+.header-02 {
+	background-color: black;
+}
+
 .container-01 {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: auto;
-	width: 10px;
 
-  margin-left: 5%;
+	width: 10px;
+	margin-top: 150px;
+	margin-bottom: 150px;
+  margin-left: 10%;
+
 }
 .section01-cult {
 	background-color: black;
@@ -94,7 +104,8 @@ pre {
   grid-auto-rows: auto;
 
   width: 80%;
-  margin-left: 5%;
+  margin-left: 10%;
+	margin-bottom: 300px;
 }
 .container-02-01:hover {
 	width: 60%;
@@ -119,7 +130,6 @@ pre {
 .container-02-aesthetically {
 	font-family: Times;
 	font-size: 3.5em;
-
 }
 
 /* Section03 */
@@ -142,23 +152,25 @@ pre {
 
 /* Section04 */
 .container-04 {
-	display: flex;
-  margin-left: 20%;
-  width: 50%;
+	display: grid;
+	grid-template-columns: 400px 400px;
+  grid-auto-rows: auto;
+
+  margin-left: 10%;
 }
 .container-04-article-02 {
-  margin-left: 20%;
+  margin-left: 10%;
 }
 
 .container-04-02 {
 	display: flex;
-  margin-left: 20%;
+  margin-left: 10%;
   width: 10%;
 }
 
 /* Section05 */
 .container-05 {
-  margin: auto;
+  margin-left: 10%;
 	margin-top: 250px;
 	width: 70%;
 }
@@ -168,7 +180,7 @@ pre {
   margin-top: 250px;
 }
 .container-05-article-02 {
-	margin-top: 250px;
+	margin-top: 150px;
 }
 .container-05-article-02-02 {
   transform: rotate(10deg);
@@ -185,7 +197,12 @@ pre {
 }
 .container-06-02 {
 	display: flex;
-	justify-content: space-between;
+	/* justify-content: space-between; */
+
+	margin-top: 300px;
+
+	background-color: black;
+
 }
 .container-06-article-01 {
 	margin-left: 20%;
@@ -197,20 +214,31 @@ pre {
 .container-06-article-01-02 {
   margin-top: 250px;
   width: 30%;
+
+	transform: rotate(-10deg);
+	color: white;
 }
 .container-06-article-02-02 {
   margin-top: 500px;
   width: 30%;
+
+	background-color: white;
 }
 
 /* Section07 */
+.container-07-hide {
+	visibility: hidden;
+}
+
 .container-07 {
   display: grid;
-  grid-template-columns: 300px 350px;
+  grid-template-columns: 200px 200px;
   grid-template-rows: repeat(6 100px);
 
+	margin-top: 10px;
+
   width: 60%;
-  margin-left: 30%;
+  margin-left: 50%;
 }
 .container-07-article-01 {
   grid-column: 1 / 2;
@@ -222,14 +250,15 @@ pre {
 .container-07-article-06 {
   transform: rotate(20deg);
 }
+.container-07-article-07 {
+}
 
 /* Section08 */
 .container-08 {
   display: grid;
-  grid-template-rows: repeat(4 auto);
-  grid-row-gap: 50px;
+	grid-template-columns: repeat(4 auto);
 
-  margin: auto;
+  margin-left: 10%;
   width: 75%
 }
 

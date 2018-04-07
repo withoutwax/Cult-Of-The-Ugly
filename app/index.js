@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
     // Section 01
     $("#section01-cult").click(function() {
       $("#section01-cult").addClass("section01-cult");
@@ -40,7 +41,12 @@ $(document).ready(function() {
 
     // Section 06
     $(".container-06").click(function() {
-      $("section.container-06").removeClass("container-06").addClass("container-06-02");
-      // $(".container-06-article-01").removeClass(".container-06-article-01").addClass(".container-06-article-01-02");
+      $(".container-06").removeClass("container-06").addClass("container-06-02");
+      $(".container-06-article-01").removeClass(".container-06-article-01").addClass("container-06-article-01-02");
+      $(".container-06-article-02").removeClass(".container-06-article-02").addClass("container-06-article-02-02");
+
+      $(".container-07-hide").removeClass("container-07-hide").addClass("container-07");
     });
+
+
 });
