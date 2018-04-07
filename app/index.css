@@ -41,6 +41,12 @@ pre {
 }
 
 /* Section01 - Cult of the Ugly */
+#menu-refresh {
+	position: -webkit-sticky;
+	position: fixed;
+}
+
+
 .header {
 	display: flex;
 }
@@ -153,7 +159,7 @@ pre {
 /* Section04 */
 .container-04 {
 	display: grid;
-	grid-template-columns: 400px 400px;
+	grid-template-columns: 400px 400px 400px;
   grid-auto-rows: auto;
 
   margin-left: 10%;
@@ -171,16 +177,30 @@ pre {
 /* Section05 */
 .container-05 {
   margin-left: 10%;
+	margin-top: 50px;
+
+}
+.container-05-02 {
+	margin-left: 10%;
 	margin-top: 250px;
-	width: 70%;
+
+	background-color: red;
+}
+.container-05-article-01 {
+	margin-top: 150px;
+
+	width: 400px;
+}
+.container-05-article-02 {
+	margin-top: 150px;
+
+	width: 400px;
 }
 .container-05-article-01-02 {
   transform: rotate(-20deg);
 
   margin-top: 250px;
-}
-.container-05-article-02 {
-	margin-top: 150px;
+	margin-left: 80%
 }
 .container-05-article-02-02 {
   transform: rotate(10deg);
@@ -225,6 +245,14 @@ pre {
 	background-color: white;
 }
 
+
+.section-065 {
+	margin-left: 30%;
+}
+.section-065-02 {
+	visibility: hidden;
+}
+
 /* Section07 */
 .container-07-hide {
 	visibility: hidden;
@@ -256,8 +284,10 @@ pre {
 /* Section08 */
 .container-08 {
   display: grid;
-	grid-template-columns: repeat(4 auto);
+	grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: 50px;
 
+	margin-top: 150px;
   margin-left: 10%;
   width: 75%
 }
@@ -276,5 +306,13 @@ pre {
 }
 
 footer {
-  background-color: #999999;
+  background-color: #eeeeee;
+}
+.footer-container {
+	display: grid;
+	grid-template-rows: 1fr;
+
+}
+.footer-container > .copyright {
+
 }

@@ -37,6 +37,8 @@ $(document).ready(function() {
     $(".container-05").click(function() {
       $(".container-05-article-01").removeClass("container-05-article-01").addClass("container-05-article-01-02");
       $(".container-05-article-02").removeClass("container-05-article-02").addClass("container-05-article-02-02");
+
+      $(".container-05").removeClass("container-05").addClass("container-05-02");
     });
 
     // Section 06
@@ -45,6 +47,7 @@ $(document).ready(function() {
       $(".container-06-article-01").removeClass(".container-06-article-01").addClass("container-06-article-01-02");
       $(".container-06-article-02").removeClass(".container-06-article-02").addClass("container-06-article-02-02");
 
+      $(".section-065").remove();
       $(".container-07-hide").removeClass("container-07-hide").addClass("container-07");
     });
 
