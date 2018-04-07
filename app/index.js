@@ -51,5 +51,9 @@ $(document).ready(function() {
       $(".container-07-hide").removeClass("container-07-hide").addClass("container-07");
     });
 
-
+    // Section 09
+    $(".container-09").click(function() {
+      $('body').css('background-color', 'black');
+    });
+    
 });

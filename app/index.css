@@ -340,6 +340,18 @@ pre {
   margin-left: 10%;
   width: 75%
 }
+.container-08-article-01 {
+	transform: rotate(-10deg);
+}
+.container-08-article-02 {
+	transform: rotate(20deg);
+}
+.container-08-article-03 {
+	transform: rotate(-30deg);
+}
+.container-08-article-04 {
+	transform: rotate(40deg);
+}
 
 /* Section09 */
 .container-09 {
@@ -351,8 +363,16 @@ pre {
 }
 .container-09-article-02 {
   margin-top: 400px;
-  margin-bottom: 400px;
 }
+
+.container-10 {
+	font-size: 2em;
+	margin-top: 200px;
+	margin-bottom: 400px;
+	color: white;
+
+}
+
 
 footer {
   background-color: #eeeeee;
