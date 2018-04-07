@@ -45,9 +45,49 @@ pre {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: auto;
+	width: 10px;
 
   margin-left: 5%;
 }
+#section01-cult:hover {
+	background-color: black;
+	color: white;
+	font-family: Times;
+	margin-left: 15%;
+	/* font-size: .75em; */
+
+	-moz-transform: scale(1, -1);
+	-webkit-transform: scale(1, -1);
+	-o-transform: scale(1, -1);
+	-ms-transform: scale(1, -1);
+	transform: scale(1, -1);
+}
+#section01-of:hover {
+	font-family: Helvetica;
+	font-size: 50px;
+}
+#section01-the:hover {
+	background-color: black;
+	color: white;
+	font-family: Times;
+	margin-top: -50%;
+
+	-moz-transform: scale(1, -1);
+	-webkit-transform: scale(1, -1);
+	-o-transform: scale(1, -1);
+	-ms-transform: scale(1, -1);
+	transform: scale(1, -1);
+}
+#section01-ugly:hover {
+	-webkit-transform:scale(2,1); /* Safari and Chrome */
+  -moz-transform:scale(2,1); /* Firefox */
+  -ms-transform:scale(2,1); /* IE 9 */
+  -o-transform:scale(2,1); /* Opera */
+  transform:scale(2,1); /* W3C */
+}
+
+
+
 
 /* Section02 */
 .container-02 {
