@@ -49,7 +49,7 @@ pre {
 
   margin-left: 5%;
 }
-#section01-cult:hover {
+.section01-cult {
 	background-color: black;
 	color: white;
 	font-family: Times;
@@ -62,11 +62,11 @@ pre {
 	-ms-transform: scale(1, -1);
 	transform: scale(1, -1);
 }
-#section01-of:hover {
+.section01-of {
 	font-family: Helvetica;
 	font-size: 50px;
 }
-#section01-the:hover {
+.section01-the {
 	background-color: black;
 	color: white;
 	font-family: Times;
@@ -78,7 +78,7 @@ pre {
 	-ms-transform: scale(1, -1);
 	transform: scale(1, -1);
 }
-#section01-ugly:hover {
+.section01-ugly {
 	-webkit-transform:scale(2,1); /* Safari and Chrome */
   -moz-transform:scale(2,1); /* Firefox */
   -ms-transform:scale(2,1); /* IE 9 */
