@@ -26,4 +26,21 @@ $(document).ready(function() {
     $(".container-03").click(function() {
       $("section.container-03").removeClass("container-03").addClass("container-03-02");
     });
+
+    // Section 04
+    $(".container-04").click(function() {
+      $("section.container-04").removeClass("container-04").addClass("container-04-02");
+    });
+
+    // Section 05
+    $(".container-05").click(function() {
+      $(".container-05-article-01").removeClass("container-05-article-01").addClass("container-05-article-01-02");
+      $(".container-05-article-02").removeClass("container-05-article-02").addClass("container-05-article-02-02");
+    });
+
+    // Section 06
+    $(".container-06").click(function() {
+      $("section.container-06").removeClass("container-06").addClass("container-06-02");
+      // $(".container-06-article-01").removeClass(".container-06-article-01").addClass(".container-06-article-01-02");
+    });
 });

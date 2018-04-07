@@ -122,8 +122,6 @@ pre {
 
 }
 
-
-
 /* Section03 */
 .container-03 {
   display: flex;
@@ -144,21 +142,35 @@ pre {
 
 /* Section04 */
 .container-04 {
-  margin-left: 35%;
-  width: 10%;
+	display: flex;
+  margin-left: 20%;
+  width: 50%;
 }
 .container-04-article-02 {
-  margin-top: -80%;
   margin-left: 20%;
 }
 
+.container-04-02 {
+	display: flex;
+  margin-left: 20%;
+  width: 10%;
+}
+
 /* Section05 */
-.container-05-article-01 {
+.container-05 {
+  margin: auto;
+	margin-top: 250px;
+	width: 70%;
+}
+.container-05-article-01-02 {
   transform: rotate(-20deg);
 
   margin-top: 250px;
 }
 .container-05-article-02 {
+	margin-top: 250px;
+}
+.container-05-article-02-02 {
   transform: rotate(10deg);
 
   margin-top: 300px;
@@ -167,13 +179,26 @@ pre {
 /* Section06 */
 .container-06 {
   display: flex;
-  justify-content: space-between;
+	margin-top: 300px;
+	margin-bottom: 300px;
+  /* justify-content: space-between; */
+}
+.container-06-02 {
+	display: flex;
+	justify-content: space-between;
 }
 .container-06-article-01 {
-  margin-top: 250px;
+	margin-left: 20%;
   width: 30%;
 }
 .container-06-article-02 {
+  width: 30%;
+}
+.container-06-article-01-02 {
+  margin-top: 250px;
+  width: 30%;
+}
+.container-06-article-02-02 {
   margin-top: 500px;
   width: 30%;
 }
@@ -181,7 +206,7 @@ pre {
 /* Section07 */
 .container-07 {
   display: grid;
-  grid-template-columns: 75px 350px;
+  grid-template-columns: 300px 350px;
   grid-template-rows: repeat(6 100px);
 
   width: 60%;
