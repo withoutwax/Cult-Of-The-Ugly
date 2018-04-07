@@ -14,8 +14,16 @@ $(document).ready(function() {
     });
 
     // Section 02
-    $(".container-02-article-01").click(function() {
+    $(".container-02").click(function() {
       $(".container-02-article-01 > #ugly").addClass("container-02-ugly");
+      $(".container-02-article-02 > #beauty").addClass("container-02-beauty");
+      $(".container-02-article-03 > #aesthetically").addClass("container-02-aesthetically");
+
+      $(".container-02").addClass("container-02-01");
     });
 
+    // Section 03
+    $(".container-03").click(function() {
+      $("section.container-03").removeClass("container-03").addClass("container-03-02");
+    });
 });
