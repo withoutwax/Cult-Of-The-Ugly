@@ -13,5 +13,9 @@ $(document).ready(function() {
       $("#section01-ugly").addClass("section01-ugly");
     });
 
+    // Section 02
+    $(".container-02-article-01").click(function() {
+      $(".container-02-article-01 > #ugly").addClass("container-02-ugly");
+    });
 
 });
