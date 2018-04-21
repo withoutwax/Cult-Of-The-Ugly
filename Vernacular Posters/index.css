@@ -1,13 +1,22 @@
 img {
   position: absolute;
-  top: 20;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
+a {
+  /* background-color: blue; */
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+}
 /* GARAGE SALE */
 /* #garage-sale {
 
 } */
+#garage-sale {
+  opacity: 1;
+}
 #garage-sale:hover + #img-garage-sale {
   display: block;
 }
@@ -17,7 +26,7 @@ img {
 
 /* BAG */
 #bag {
-  background-color: blue;
+
 }
 #bag:hover + #img-bag {
   display: block;
@@ -28,7 +37,7 @@ img {
 
 /* BASKETBALL */
 #basketball {
-  background-color: blue;
+
 }
 #basketball:hover + #img-basketball {
   display: block;
@@ -39,7 +48,7 @@ img {
 
 /* BED */
 #bed {
-  background-color: blue;
+
 }
 #bed:hover + #img-bed {
   display: block;
@@ -50,7 +59,7 @@ img {
 
 /* BOOK */
 #book {
-  background-color: blue;
+
 }
 #book:hover + #img-book {
   display: block;
@@ -61,7 +70,7 @@ img {
 
 /* CAR SEAT */
 #car-seat {
-  background-color: blue;
+
 }
 #car-seat:hover + #img-car-seat {
   display: block;
@@ -72,7 +81,7 @@ img {
 
 /* COMPUTERS */
 #computers {
-  background-color: blue;
+
 }
 #computers:hover + #img-computers {
   display: block;
@@ -83,7 +92,7 @@ img {
 
 /* DVD */
 #dvd {
-  background-color: blue;
+
 }
 #dvd:hover + #img-dvd {
   display: block;
@@ -94,7 +103,7 @@ img {
 
 /* HOOP */
 #hoop {
-  background-color: blue;
+
 }
 #hoop:hover + #img-hoop {
   display: block;
@@ -105,7 +114,7 @@ img {
 
 /* HOOP */
 #mannequin {
-  background-color: blue;
+
 }
 #mannequin:hover + #img-mannequin {
   display: block;
@@ -116,7 +125,7 @@ img {
 
 /* SNEAKERS */
 #sneakers {
-  background-color: blue;
+
 }
 #sneakers:hover + #img-sneakers {
   display: block;
@@ -127,7 +136,7 @@ img {
 
 /* TRAIN */
 #train {
-  background-color: blue;
+
 }
 #train:hover + #img-train {
   display: block;
@@ -138,7 +147,7 @@ img {
 
 /* VASE */
 #vase {
-  background-color: blue;
+
 }
 #vase:hover + #img-vase {
   display: block;
@@ -149,7 +158,7 @@ img {
 
 /* WILL */
 #will {
-  background-color: blue;
+
 }
 #will:hover + #img-will {
   display: block;
