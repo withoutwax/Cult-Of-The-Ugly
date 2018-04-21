@@ -4,9 +4,10 @@ img {
   left: 0;
 }
 
-#garage-sale {
+/* GARAGE SALE */
+/* #garage-sale {
 
-}
+} */
 #garage-sale:hover + #img-garage-sale {
   display: block;
 }
@@ -14,7 +15,7 @@ img {
   display: none;
 }
 
-
+/* BAG */
 #bag {
   background-color: blue;
 }
@@ -22,5 +23,137 @@ img {
   display: block;
 }
 #img-bag {
+  display: none;
+}
+
+/* BASKETBALL */
+#basketball {
+  background-color: blue;
+}
+#basketball:hover + #img-basketball {
+  display: block;
+}
+#img-basketball {
+  display: none;
+}
+
+/* BED */
+#bed {
+  background-color: blue;
+}
+#bed:hover + #img-bed {
+  display: block;
+}
+#img-bed {
+  display: none;
+}
+
+/* BOOK */
+#book {
+  background-color: blue;
+}
+#book:hover + #img-book {
+  display: block;
+}
+#img-book {
+  display: none;
+}
+
+/* CAR SEAT */
+#car-seat {
+  background-color: blue;
+}
+#car-seat:hover + #img-car-seat {
+  display: block;
+}
+#img-car-seat {
+  display: none;
+}
+
+/* COMPUTERS */
+#computers {
+  background-color: blue;
+}
+#computers:hover + #img-computers {
+  display: block;
+}
+#img-computers {
+  display: none;
+}
+
+/* DVD */
+#dvd {
+  background-color: blue;
+}
+#dvd:hover + #img-dvd {
+  display: block;
+}
+#img-dvd {
+  display: none;
+}
+
+/* HOOP */
+#hoop {
+  background-color: blue;
+}
+#hoop:hover + #img-hoop {
+  display: block;
+}
+#img-hoop {
+  display: none;
+}
+
+/* HOOP */
+#mannequin {
+  background-color: blue;
+}
+#mannequin:hover + #img-mannequin {
+  display: block;
+}
+#img-mannequin {
+  display: none;
+}
+
+/* SNEAKERS */
+#sneakers {
+  background-color: blue;
+}
+#sneakers:hover + #img-sneakers {
+  display: block;
+}
+#img-sneakers {
+  display: none;
+}
+
+/* TRAIN */
+#train {
+  background-color: blue;
+}
+#train:hover + #img-train {
+  display: block;
+}
+#img-train {
+  display: none;
+}
+
+/* VASE */
+#vase {
+  background-color: blue;
+}
+#vase:hover + #img-vase {
+  display: block;
+}
+#img-vase {
+  display: none;
+}
+
+/* WILL */
+#will {
+  background-color: blue;
+}
+#will:hover + #img-will {
+  display: block;
+}
+#img-will {
   display: none;
 }
