@@ -11,3 +11,8 @@ Cult of the Ugly is a project of experimentation between aesthetics and aestheti
 ## 04 Vernacular Posters
 
 Vernacular Posters is a project which I was told to design a poster on two things: **Lost Dog Flyer** or **The Garage Sale Sign**.
+
+## 05 nightcap
+
+nightcap is a branding project where our group was assign to create a visual system for a conceptual design event called **nightcap**.  
+Currently nightcap is still WIP.
