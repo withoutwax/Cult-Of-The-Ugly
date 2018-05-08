@@ -60,27 +60,8 @@
     url(../../assets/fonts/BeirutDisplayTrial-LightItalic.otf) format('otf');
 }
 
+
 /* Beirut Text */
-/* @font-face {
-  font-family: 'BeirutText';
-  font-style: normal;
-  font-weight: 400;
-  src:
-    local('Roboto'),
-    local('Roboto-Regular'),
-    url(../../assets/fonts/BeirutTextTrial-Bold.otf) format('otf'),
-    url(../../assets/fonts/BeirutTextTrial-BoldItalic.otf) format('otf'),
-    url(../../assets/fonts/BeirutTextTrial-Book.otf) format('otf'),
-    url(../../assets/fonts/BeirutTextTrial-BookItalic.otf) format('otf'),
-    url(../../assets/fonts/BeirutTextTrial-Light.otf) format('otf'),
-    url(../../assets/fonts/BeirutTextTrial-LightItalic.otf) format('otf'),
-    url(../../assets/fonts/BeirutTextTrial-Regular.otf) format('otf'),
-    url(../../assets/fonts/BeirutTextTrial-RegularItalic.otf) format('otf'),
-    url(../../assets/fonts/BeirutTextTrial-SemiBold.otf) format('otf'),
-    url(../../assets/fonts/BeirutTextTrial-SemiBoldItalic.otf) format('otf');
-} */
-
-
 @font-face {
   font-family: 'BeirutText';
   font-style: normal;
