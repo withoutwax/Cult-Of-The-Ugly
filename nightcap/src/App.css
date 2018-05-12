@@ -1,7 +1,11 @@
 * {
   font-family: 'BeirutText';
+  text-align: left;
 }
-
+h1 {
+  font-family: 'BeirutDisplay';
+  font-size: 3em;
+}
 h2 {
   font-family: 'BeirutDisplay';
   font-size: 2em;
@@ -13,6 +17,14 @@ p {
 
 a {
   font-family: 'BeirutText';
+}
+span {
+  font-family: 'BeirutText';
+  font-size: 1.3em;
+}
+button {
+  font-family: 'BeirutDisplay';
+  font-size: 1.1em;
 }
 
 

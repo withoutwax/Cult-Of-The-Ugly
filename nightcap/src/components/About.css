@@ -29,4 +29,10 @@
 .about-section-03 {
   grid-column: 3 / 4;
   grid-row: 1 / 3;
+
+  /* GRID INSIDE GRID */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 40px;
 }
