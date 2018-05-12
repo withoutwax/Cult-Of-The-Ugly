@@ -1,6 +1,20 @@
+* {
+  font-family: 'BeirutText';
+}
+
+h2 {
+  font-family: 'BeirutDisplay';
+  font-size: 2em;
+}
+
 p {
   font-family: 'BeirutText';
 }
+
+a {
+  font-family: 'BeirutText';
+}
+
 
 .App {
   text-align: center;
