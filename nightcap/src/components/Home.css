@@ -36,6 +36,7 @@
 #home-nightcap-title {
   font-size: 6em;
   font-weight: bold;
+  letter-spacing: -4px;
 }
 
 .home-date {
@@ -43,4 +44,6 @@
   font-weight: bold;
   justify-self: center;
   align-self: center;
+
+  letter-spacing: -4px;
 }
