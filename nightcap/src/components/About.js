@@ -10,7 +10,7 @@ class About extends Component {
   render() {
     return (
       <div>
-        <section className="about-container">
+        <section className="about-container padding-right-100">
           <div className="about-section-01-01">
             <h2>guests</h2>
           </div>

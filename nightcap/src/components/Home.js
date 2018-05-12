@@ -12,7 +12,7 @@ class Home extends Component {
           <div id="home-nightcap-title">nightcap</div>
         </article>
         <article className="home-date">
-          9/14
+          <h2>9/14</h2>
         </article>
       </section>
     );

@@ -6,7 +6,7 @@
   align-items: center;
 }
 .home-container > * {
-  border: 2px blue solid;
+  /* border: 2px blue solid; */
 }
 .home-title {
 
@@ -19,7 +19,7 @@
   justify-items:center;
 }
 .home-title > * {
-  border: 2px red solid;
+  /* border: 2px red solid; */
 }
 .home-title > img {
   grid-column: 1 / 2;
@@ -41,5 +41,6 @@
 .home-date {
   font-size: 4em;
   font-weight: bold;
-  justify-self: flex-start;
+  justify-self: center;
+  align-self: center;
 }
